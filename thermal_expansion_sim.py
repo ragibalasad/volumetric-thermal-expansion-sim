@@ -35,8 +35,8 @@ temperature = 20
 ball_radius = MIN_RADIUS
 ball_x = WIDTH // 2
 ball_start_y = 100
-ball_y = ball_start_y
-ball_dy = 0
+ball_y = float(ball_start_y)
+ball_dy = 0.0
 falling = False
 
 # Slider
